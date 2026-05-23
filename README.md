@@ -59,18 +59,11 @@ The whole thing is in public. Roadmap, weekly logs, every commit. No theatre.
 
 <br>
 
-## Live stats
+## Streak
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=watarikai96&show_icons=true&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=39D353&text_color=C9D1D9&include_all_commits=true&count_private=true">
 <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=watarikai96&hide_border=true&background=0D1117&stroke=0D1117&ring=39D353&fire=39D353&currStreakLabel=39D353&sideLabels=39D353&dates=C9D1D9&currStreakNum=FAF8F3&sideNums=FAF8F3">
-
-</div>
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=watarikai96&layout=compact&hide_border=true&bg_color=0D1117&title_color=39D353&text_color=C9D1D9&langs_count=8">
 
 </div>
 
