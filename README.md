@@ -49,7 +49,7 @@ The whole thing is in public. Roadmap, weekly logs, every commit. No theatre.
 
 <br>
 
-## Contribution graph (eaten live by a snake)
+## Contribution Graph
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/watarikai96/watarikai96/output/github-contribution-grid-snake-dark.svg">
