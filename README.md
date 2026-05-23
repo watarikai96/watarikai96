@@ -76,12 +76,6 @@ The whole thing is in public. Roadmap, weekly logs, every commit. No theatre.
 
 <br>
 
-## Activity graph
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=watarikai96&bg_color=0D1117&color=39D353&line=26A641&point=A6FFB8&area=true&hide_border=true&custom_title=Commits%20over%20time">
-
-<br>
-
 ## Trophy case
 
 <div align="center">
