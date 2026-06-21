@@ -96,8 +96,6 @@ stack discipline
 
 ## Find me
 
-- Twitter / X: [@watarikai96](https://twitter.com/watarikai96)
-- Site: [rahuls.vercel.app](https://rahuls.vercel.app)
 - Email: watarikai@outlook.com
 - ORCID: [0009-0004-7132-3883](https://orcid.org/0009-0004-7132-3883)
 
