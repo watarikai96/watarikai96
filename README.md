@@ -69,16 +69,6 @@ The whole thing is in public. Roadmap, weekly logs, every commit. No theatre.
 
 <br>
 
-## Trophy case
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=watarikai96&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1&column=7">
-
-</div>
-
-<br>
-
 ## How I work
 
 ```
