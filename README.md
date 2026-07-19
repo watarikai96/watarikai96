@@ -27,7 +27,7 @@
 
 ## What I am doing right now
 
-Building **[TiME](https://github.com/watarikai96/TiME)**　& **[Stratabase](https://github.com/watarikai96/Stratabase)** 
+Building **[Stratabase](https://github.com/watarikai96/Stratabase)** 
 Solo founder, Tokyo.
 
 <br>
