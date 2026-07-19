@@ -27,9 +27,8 @@
 
 ## What I am doing right now
 
-Building **[TiME](https://github.com/watarikai96/TiME)**, a calm time-management product for people who want their attention back. Solo founder, Tokyo. Phase A is shipping the Android app on Play Store closed alpha by 2026-08-14.
-
-The whole thing is in public. Roadmap, weekly logs, every commit. No theatre.
+Building **[TiME](https://github.com/watarikai96/TiME)**　& **[Stratabase](https://github.com/watarikai96/Stratabase)** 
+Solo founder, Tokyo.
 
 <br>
 
@@ -44,6 +43,10 @@ The whole thing is in public. Roadmap, weekly logs, every commit. No theatre.
 <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white">
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">
 <img src="https://img.shields.io/badge/CircleCI-343434?style=for-the-badge&logo=circleci&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 
 </div>
 
@@ -106,8 +109,6 @@ stack discipline
 <br>
 
 <div align="center">
-
-<sub>Built quietly. Shipped publicly. Tokyo.</sub>
 
 <br><br>
 
