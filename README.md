@@ -11,6 +11,9 @@
   <a href="https://github.com/watarikai96/TiME">
     <img alt="Building" src="https://img.shields.io/badge/building-TiME-39D353?style=for-the-badge&labelColor=0D1117&logo=android&logoColor=39D353">
   </a>
+  <a href="https://github.com/watarikai96/Stratabase">
+    <img alt="Building Stratabase" src="https://img.shields.io/badge/building-Stratabase-39D353?style=for-the-badge&labelColor=0D1117&logo=python&logoColor=39D353">
+  </a>
   <a href="https://rahuls.vercel.app">
     <img alt="Site" src="https://img.shields.io/badge/site-rahuls.vercel.app-39D353?style=for-the-badge&labelColor=0D1117">
   </a>
