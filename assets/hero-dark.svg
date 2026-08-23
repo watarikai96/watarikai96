@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Profile hero. The gem is stratabase/assets/identity.svg: geometry, gradient stops, filter and clip
+     path are unchanged, and every gradient reads currentColor so one root attribute sets the accent.
+     NO TEXT ON PURPOSE. An SVG on GitHub cannot load a web font, so any wordmark drawn here would
+     render in whatever serif the reader's platform happens to have, at a width that varies by about
+     16 percent. The words live in the markdown instead, where they are selectable, searchable, and
+     set in the platform's own type. This file is the picture; the README is the voice. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300"
+     role="img" aria-label="Stratabase" color="#10B981">
+  <title>Stratabase</title>
+  <defs>
+    <linearGradient id="pg-d" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0b0c"/><stop offset="1" stop-color="#15151a"/>
+    </linearGradient>
+    <radialGradient id="gl-d" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(880 150) scale(300 190)">
+      <stop offset="0" stop-color="currentColor" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="currentColor" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade-d" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="currentColor" stop-opacity="0"/>
+      <stop offset="0.42" stop-color="currentColor" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="currentColor" stop-opacity="0"/>
+    </linearGradient>
+<defs>
+    <linearGradient id="sb-gem-body-d" x1="31" y1="13" x2="97" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="currentColor" stop-opacity="0.44"/>
+      <stop offset="0.45" stop-color="currentColor" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="currentColor" stop-opacity="0.58"/>
+    </linearGradient>
+    <linearGradient id="sb-gem-stratum-a-d" x1="29" y1="29" x2="96" y2="63" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.68"/>
+      <stop offset="0.38" stop-color="currentColor" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="currentColor" stop-opacity="0.38"/>
+    </linearGradient>
+    <linearGradient id="sb-gem-stratum-b-d" x1="20" y1="53" x2="108" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="currentColor" stop-opacity="0.34"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="currentColor" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="sb-gem-stratum-c-d" x1="29" y1="77" x2="93" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="currentColor" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#120b2a" stop-opacity="0.54"/>
+    </linearGradient>
+    <radialGradient id="sb-gem-light-d" cx="0" cy="0" r="1" gradientTransform="translate(57 52) rotate(73) scale(45 32)">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.72"/>
+      <stop offset="0.42" stop-color="currentColor" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="currentColor" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="sb-gem-shadow-d" x="-35%" y="-25%" width="170%" height="190%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"/>
+      <feFlood flood-color="currentColor" flood-opacity="0.42" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+      <feOffset in="shadow" dy="7" result="offset"/>
+      <feMerge><feMergeNode in="offset"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="sb-gem-clip-d">
+      <path d="M40 13C48 8 80 8 88 13L111 40C114 44 114 50 112 55L95 99C93 104 89 108 84 111L69 120C66 122 62 122 59 120L44 111C39 108 35 104 33 99L16 55C14 50 14 44 17 40L40 13Z"/>
+    </clipPath>
+  </defs>
+  </defs>
+  <rect width="1200" height="300" fill="url(#pg-d)"/>
+  <rect width="1200" height="300" fill="url(#gl-d)"/>
+  <!-- STRATA. Not decoration: the name is geological, so the ground is drawn in layers. Each band is a
+       thin wedge, thinning to nothing at both edges, so the composition has no hard vertical seam. -->
+  <g fill="none" stroke="url(#fade-d)">
+    <path d="M0 84 L1200 72" stroke-width="1"/>
+    <path d="M0 132 L1200 116" stroke-width="2"/>
+    <path d="M0 186 L1200 172" stroke-width="1"/>
+    <path d="M0 232 L1200 222" stroke-width="2"/>
+  </g>
+  <rect y="298" width="1200" height="2" fill="currentColor" opacity="0.3"/>
+  <g transform="translate(768 42) scale(1.375)">
+<g filter="url(#sb-gem-shadow-d)" data-identity-model="ruby-gem-v1">
+    <path d="M40 13C48 8 80 8 88 13L111 40C114 44 114 50 112 55L95 99C93 104 89 108 84 111L69 120C66 122 62 122 59 120L44 111C39 108 35 104 33 99L16 55C14 50 14 44 17 40L40 13Z" fill="url(#sb-gem-body-d)" data-identity-layer="body"/>
+    <g clip-path="url(#sb-gem-clip-d)">
+      <path d="M18 43L43 17L64 47L85 17L111 43L95 58L64 51L33 58Z" fill="url(#sb-gem-stratum-a-d)" data-identity-layer="stratum-top"/>
+      <path d="M16 53L34 58L64 51L94 58L112 53L101 81L64 73L27 81Z" fill="url(#sb-gem-stratum-b-d)" data-identity-layer="stratum-middle"/>
+      <path d="M27 81L64 73L101 81L91 105L68 120H60L37 105Z" fill="url(#sb-gem-stratum-c-d)" data-identity-layer="stratum-base"/>
+      <ellipse cx="57" cy="52" rx="33" ry="43" fill="url(#sb-gem-light-d)" data-identity-layer="internal-light"/>
+      <path d="M64 15V116M18 46L64 51L110 46M28 80L64 73L100 80M42 15L64 51L86 15M33 58L60 118M95 58L68 118" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="1.15" data-identity-layer="refraction"/>
+      <path d="M31 39C40 24 48 17 57 15C49 27 44 39 42 53L28 57C27 50 28 44 31 39Z" fill="#ffffff" fill-opacity="0.38" data-identity-layer="specular"/>
+      <path d="M36 27C41 20 46 16 52 14" fill="none" stroke="#ffffff" stroke-opacity="0.86" stroke-width="3.2" stroke-linecap="round" data-identity-layer="edge-highlight"/>
+    </g>
+    <path d="M40 13C48 8 80 8 88 13L111 40C114 44 114 50 112 55L95 99C93 104 89 108 84 111L69 120C66 122 62 122 59 120L44 111C39 108 35 104 33 99L16 55C14 50 14 44 17 40L40 13Z" fill="none" stroke="#ffffff" stroke-opacity="0.54" stroke-width="1.45" data-identity-layer="rim"/>
+  </g>
+  </g>
+</svg>
