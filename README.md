@@ -1,120 +1,78 @@
 <div align="center">
-
-<img src="assets/hero.svg" alt="ラフル, solo founder, building TiME" width="100%">
-
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+    <img src="assets/hero-dark.svg" alt="" width="100%">
+  </picture>
 </div>
 
-<br>
+<h1 align="center">Rahul &nbsp;<sub>ラフル</sub></h1>
 
-<div align="center">
+<p align="center">
+  <b>Solo founder, Tokyo.</b><br>
+  I build self-hosted software for people who would rather own their data than rent it.
+</p>
 
-  <a href="https://github.com/watarikai96/TiME">
-    <img alt="Building" src="https://img.shields.io/badge/building-TiME-39D353?style=for-the-badge&labelColor=0D1117&logo=android&logoColor=39D353">
-  </a>
-  <a href="https://github.com/watarikai96/Stratabase">
-    <img alt="Building Stratabase" src="https://img.shields.io/badge/building-Stratabase-39D353?style=for-the-badge&labelColor=0D1117&logo=python&logoColor=39D353">
-  </a>
-  <a href="https://rahuls.vercel.app">
-    <img alt="Site" src="https://img.shields.io/badge/site-rahuls.vercel.app-39D353?style=for-the-badge&labelColor=0D1117">
-  </a>
-  <a href="mailto:watarikai@outlook.com">
-    <img alt="Email" src="https://img.shields.io/badge/email-watarikai%40outlook.com-39D353?style=for-the-badge&labelColor=0D1117">
-  </a>
-  <a href="https://orcid.org/0009-0004-7132-3883">
-    <img alt="ORCID" src="https://img.shields.io/badge/orcid-0009--0004--7132--3883-39D353?style=for-the-badge&labelColor=0D1117">
-  </a>
-
-</div>
+<p align="center">
+  <code>no framework</code> &nbsp; <code>no package manager</code> &nbsp; <code>no bundler</code> &nbsp; <code>zero runtime dependencies</code>
+</p>
 
 <br>
 
-## What I am doing right now
+## Stratabase
 
-Building **[Stratabase](https://github.com/watarikai96/Stratabase)** 
-Solo founder, Tokyo.
+A work-life operating system you host yourself. Documents, projects, planning, time, money, and the graph that ties them together, in one SQLite file that never leaves your machine.
 
-<br>
+The server is the Python standard library. The browser code is hand-written JavaScript. There is no framework, no package manager and no bundler, and a build gate fails the whole thing if a dependency ever appears.
 
-## Stack
+|  |  |  |
+|---|---|---|
+| **1,337** commits | **78,378** lines of product code | **325** automated gates |
+| **62** active days | **20,615** lines of design system | **241** test suites |
+| since 2 June 2026 | **26,390** lines of audit tooling | **0** runtime dependencies |
 
-<div align="center">
+**Ten modules.** Documents and a block editor, the work board, daily planning, projects and issues, self-defined life trackers, where the hours went, pages as a link map, a command palette. Two more in design: your own model over your own data, and focus sessions.
 
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white">
-<img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white">
-<img src="https://img.shields.io/badge/SwiftUI-FA7343?style=for-the-badge&logo=swift&logoColor=white">
-<img src="https://img.shields.io/badge/Ruby%20on%20Rails-CC0000?style=for-the-badge&logo=rubyonrails&logoColor=white">
-<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white">
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">
-<img src="https://img.shields.io/badge/CircleCI-343434?style=for-the-badge&logo=circleci&logoColor=white">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+Two things I would rather be judged on than the feature list. A durability stack built after actually losing work: every document mirrored to plain markdown as you type, verified database snapshots addressed by workspace UUID rather than by path so a moved workspace keeps its history, and an append-only operation log that replays itself and diffs against the live database to prove nothing drifted. And a write path that was silently losing updates, measured at 111 of 320 revision increments dropped under concurrent load, now fixed and pinned by a test that fails on the old code.
 
-</div>
+## TiME and SEiKO
 
-<br>
+Two mobile products, native on both platforms. Kotlin and Jetpack Compose on Android, SwiftUI on iOS, a Ruby backend, Python for the assist features.
 
-## Contribution Graph
+## Research
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/watarikai96/watarikai96/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/watarikai96/watarikai96/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contributions snake animation" src="https://raw.githubusercontent.com/watarikai96/watarikai96/output/github-contribution-grid-snake.svg">
-</picture>
-
-<br>
-
-## Streak
-
-<div align="center">
-
-<img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=watarikai96&hide_border=true&background=0D1117&stroke=0D1117&ring=39D353&fire=39D353&currStreakLabel=39D353&sideLabels=39D353&dates=C9D1D9&currStreakNum=FAF8F3&sideNums=FAF8F3">
-
-</div>
-
-<br>
+LLM inference, quantization, retrieval-augmented generation, and Japanese natural language processing. Published work under [ORCID 0009-0004-7132-3883](https://orcid.org/0009-0004-7132-3883).
 
 ## How I work
 
 ```
 schedule
-  weekday  06:00-07:30 JST  morning block, planning + design
-  weekday  20:00-22:00 JST  evening block, coding
+  weekday  06:00-07:30 JST   morning block, planning and design
+  weekday  20:00-22:00 JST   evening block, coding
   weekend  6-10h flexible    deep work, parallel learning
   hard stop 22:00 JST        every day, no exceptions
 
 cadence
-  daily    one YouTrack ticket moves at least one column
-  weekly   Sunday evening, 5-line public log
-  monthly  metric thread on X
-  quarter  retrospective + BIBLE update
+  daily      one ticket moves at least one column
+  weekly     Sunday evening, five-line log
+  monthly    metric thread
+  quarterly  retrospective and doctrine update
 
-stack discipline
+discipline
   one platform at a time
-  one persona entry point
-  one market focus
+  one entry point
+  one market
   one voice
   AI maximalist
 ```
 
-<br>
-
-## Find me
-
-- Email: watarikai@outlook.com
-- ORCID: [0009-0004-7132-3883](https://orcid.org/0009-0004-7132-3883)
-
-<br>
-
----
+Native English, JLPT N1, comfortable in Japanese in more or less any situation a native speaker would be in. MBA in progress alongside the rest of it. Twelve million walking steps, same discipline, different ledger.
 
 <br>
 
 <div align="center">
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=watarikai96&label=profile%20views&color=39D353&style=flat">
-
+  <a href="https://rahuls.vercel.app"><b>rahuls.vercel.app</b></a>
+  &nbsp;·&nbsp;
+  <a href="mailto:watarikai@outlook.com">watarikai@outlook.com</a>
+  &nbsp;·&nbsp;
+  <a href="https://orcid.org/0009-0004-7132-3883">ORCID</a>
 </div>
