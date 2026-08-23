@@ -5,7 +5,7 @@
   </picture>
 </div>
 
-<h1 align="center">Rahul &nbsp;<sub>ラフル</sub></h1>
+<h1 align="center">Rahul</sub></h1>
 
 <p align="center">
   <b>Solo founder, Tokyo.</b><br>
