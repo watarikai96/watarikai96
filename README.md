@@ -36,7 +36,7 @@ Two things I would rather be judged on than the feature list. A durability stack
 
 ## TiME and SEiKO
 
-Two mobile products, native on both platforms. Kotlin and Jetpack Compose on Android, SwiftUI on iOS, a Ruby backend, Python for the assist features.
+Two mobile products, native on both platforms. Kotlin and Jetpack Compose on Android, SwiftUI on iOS (WIP).
 
 ## Research
 
@@ -64,8 +64,6 @@ discipline
   one voice
   AI maximalist
 ```
-
-Native English, JLPT N1, comfortable in Japanese in more or less any situation a native speaker would be in. MBA in progress alongside the rest of it. Twelve million walking steps, same discipline, different ledger.
 
 <br>
 
